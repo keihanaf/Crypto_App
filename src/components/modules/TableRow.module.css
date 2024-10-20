@@ -1,0 +1,45 @@
+.symbol {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.symbol:hover {
+    transform: translateY(-3px);
+}
+
+.symbol img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.symbol span {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.success {
+    color: #4cd137;
+    text-shadow: 0 0 5px rgba(76, 209, 55, 0.5);
+}
+
+.error {
+    color: #e84118;
+    text-shadow: 0 0 5px rgba(232, 65, 24, 0.5);
+}
+
+@media (max-width: 600px) {
+    .table {
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .table td, .table th {
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+    min-height: 1000px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.table thead {
+    border-bottom: 2px solid #4a69bd;
+    margin-bottom: 20px;
+}
+
+.table th {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 15px 20px;
+    color: #4a69bd;
+}
+
+.table tbody tr {
+    height: 80px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.table td {
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
