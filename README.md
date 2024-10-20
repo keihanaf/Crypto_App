@@ -5,6 +5,8 @@
 ## Description
 Crypto App is a React-based web application that displays up-to-date information about cryptocurrencies. Using the CoinGecko API, it presents a list of top cryptocurrencies along with their prices, price changes, and trading volumes.
 
+<h3><a href="https://crypto-app-plum-mu.vercel.app/">View Crypto App</a></h3>
+
 ## Features
 - Display a list of top cryptocurrencies
 - Search for specific cryptocurrencies
